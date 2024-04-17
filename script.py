@@ -1,15 +1,12 @@
 #!/usr/bin/env python3
 
-from os import environ
+import sys
 
 print("Hello World!!")
-
 ## Testando Variáveis
-test_variable = "env.TEST_VARIABLE"
+
+test_variable = sys.argv[1]
+#argumento2 = sys.argv[2]
+#argumento3 = sys.argv[3]
 
 print(test_variable)
-
-print(test_variable['env.TEST_VARIABLE'])
-
-#env_dict = dict(environ)
-#print(env_dict["USER"], env_dict["NAME"])
