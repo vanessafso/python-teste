@@ -5,6 +5,9 @@ from os import environ
 print("Hello World!!")
 
 ## Testando Variáveis
+test_variable = "env.TEST_VARIABLE"
+
+print(test_variable)
 
 print(test_variable['env.TEST_VARIABLE'])
 
